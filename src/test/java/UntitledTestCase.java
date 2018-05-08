@@ -45,9 +45,9 @@ public class UntitledTestCase {
         System.out.println("-->> Test Start");
 
         Map<String, String> users = new HashMap<String, String>();
-        users.put("sar123", "Nic@123");
-        users.put("sar1234", "Nic@123");
-        users.put("sar12", "Nic@1234");
+        users.put("root", "root");
+        users.put("admin", "admin");
+        users.put("root123", "root123");
 
         for(Map.Entry<String, String> entry : users.entrySet()) {
 
